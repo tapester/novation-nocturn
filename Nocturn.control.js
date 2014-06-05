@@ -1,8 +1,8 @@
 loadAPI(1);
 
-host.defineController("Novation", "Impulse 25", "1.0", "3B1F8670-2433-11E2-81C1-0800200C9A66");
+host.defineController("Novation", "Nocturn Keyboard", "1.0", "76E16CA2-5FCB-4DD1-8940-3B04DD4841BB");
 host.defineMidiPorts(1, 1);
-host.addDeviceNameBasedDiscoveryPair(["Impulse"], ["Impulse"]);
+host.addDeviceNameBasedDiscoveryPair(["Nocturn Keyboard"], ["Nocturn Keyboard"]);
 for ( var i = 1; i < 9; i++)
 {
 	var name = i.toString() + "- Impulse";
